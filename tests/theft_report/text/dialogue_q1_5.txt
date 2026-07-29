@@ -1,0 +1,16 @@
+OFFICER: Good evening. What can I do for you?
+DANIEL: I’d like to report a theft. My laptop disappeared, and my insurance company said I need an official report before I can submit a claim.
+OFFICER: Of course. I’ll take your personal details first, then we’ll go through the property and what happened. What’s your full name?
+DANIEL: Daniel Fairbairn.
+OFFICER: So that’s Fareburn — F-A-R-E-B—
+DANIEL: No. F-A-I-R-B-A-I-R-N.
+OFFICER: Thank you. And your address?
+DANIEL: Twenty-four Linden Street. I’ve lived there for nearly three years, and it’s the address on my insurance documents.
+OFFICER: Fine. What’s the best phone number to contact you on?
+DANIEL: It’s 087 412—sorry, that was my old number. It’s 087 695 3214.
+OFFICER: Right. And what do you do? Then tell me exactly what was taken.
+DANIEL: I’m a receptionist at the Grand Harbour Hotel. The stolen item is a Norland laptop. It’s grey, with a small scratch beside the keyboard. I normally keep it in a black case, but the case and charger were left behind.
+OFFICER: Do you have the serial number? And approximately what is the laptop worth now?
+DANIEL: The serial number should be on the box at home, so I can email it tomorrow. It cost €900 when it was new, but I’ve had it for over a year. I’d put its current value at about €750.
+OFFICER: When did you buy it?
+DANIEL: On 18 May last year. The shop delivered it on the 20th, but I ordered it online and paid on the 18th. I still have the receipt.
