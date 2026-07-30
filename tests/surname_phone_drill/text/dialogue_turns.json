@@ -127,7 +127,7 @@
     "mini_dialogue": 5,
     "speaker": "CALLER_05",
     "delivery": "Natural pace, with clear digits.",
-    "text": "Yes. Oh one, eight oh six, double seven, one four."
+    "text": "Yes. The number is zero one, eight zero six, double seven, one four."
   },
   {
     "mini_dialogue": 5,
@@ -164,26 +164,19 @@
     "mini_dialogue": 6,
     "speaker": "RECEPTIONIST",
     "delivery": "Trying to separate the two numbers.",
-    "text": "That’s flat forty at number four?"
+    "text": "That is flat forty at number four?"
   },
   {
     "mini_dialogue": 6,
     "speaker": "CALLER_06",
     "delivery": "Patiently contrasts the details.",
-    "text": "The other way round: flat four, house number forty."
+    "text": "No, it is the other way round. It is flat four, and the house number is forty."
   },
   {
     "mini_dialogue": 6,
     "speaker": "RECEPTIONIST",
     "delivery": "Concentrating hard.",
     "text": "Flat four. Number forty. Cedar Avenue."
-  },
-  {
-    "mini_dialogue": 6,
-    "speaker": "CALLER_06",
-    "delivery": "Brief confirmation.",
-    "text": "Exactly.",
-    "pause_after": 900
   },
   {
     "mini_dialogue": 7,
@@ -317,50 +310,62 @@
   {
     "mini_dialogue": 10,
     "speaker": "CALLER_10",
-    "delivery": "Entirely innocent and natural.",
+    "delivery": "Entirely innocent and natural, with a brief hesitant pause after saying Forfar.",
+    "text": "Fourteen, Forty Foot Road, Forfar ... flat four."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Stunned by the number of similar sounds, then attempts a careful read-back.",
+    "text": "Number forty, Fourteen Foot Road, Forfar, flat four?"
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Patiently corrects the two numbers.",
+    "text": "No. The house number is fourteen. The street is Forty Foot Road."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Concentrating intensely but still gets the final number wrong.",
+    "text": "Right. Fourteen, Forty Foot Road, flat forty."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Still patient, but now speaking very carefully.",
+    "text": "No, flat four. Just four."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Slowly and triumphantly gets every number correct.",
     "text": "Fourteen, Forty Foot Road, flat four."
   },
   {
     "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Warmly confirms that she has finally understood.",
+    "text": "That’s right."
+  },
+  {
+    "mini_dialogue": 10,
     "speaker": "RECEPTIONIST",
-    "delivery": "Stunned, then attempts a read-back.",
-    "text": "Number forty, Fourteen Foot Road, flat forty?"
+    "delivery": "Relieved, then suddenly realises she has forgotten the town.",
+    "text": "And where is that again?"
   },
   {
     "mini_dialogue": 10,
     "speaker": "CALLER_10",
-    "delivery": "Patiently separates all three details.",
-    "text": "No. House number fourteen: one four. The street is Forty Foot Road. And it’s flat four: just four."
+    "delivery": "Completely innocent, in a small matter-of-fact voice.",
+    "text": "Forfar."
   },
   {
     "mini_dialogue": 10,
     "speaker": "RECEPTIONIST",
-    "delivery": "Trying desperately to remain calm.",
-    "text": "One four, Forty Foot Road, flat four."
-  },
-  {
-    "mini_dialogue": 10,
-    "speaker": "CALLER_10",
-    "delivery": "Remembers one final complication.",
-    "text": "Yes—although deliveries go to number forty next door."
-  },
-  {
-    "mini_dialogue": 10,
-    "speaker": "RECEPTIONIST",
-    "delivery": "Full comic meltdown, fast and incredulous but still clearly articulated.",
-    "text": "No. Absolutely not. I am writing fourteen, Forty Foot Road, flat four. Your parcels may live at number forty, your neighbour may live at number forty, the entire postal service may move into number forty, but you live at fourteen. One four. Flat four. I have put every four in its own box, and if a single one of them changes again, I am going home."
-  },
-  {
-    "mini_dialogue": 10,
-    "speaker": "CALLER_10",
-    "delivery": "A small, cautious voice.",
-    "text": "So... would you like my phone number?"
-  },
-  {
-    "mini_dialogue": 10,
-    "speaker": "RECEPTIONIST",
-    "delivery": "Flat, immediate and completely defeated.",
-    "text": "No.",
+    "delivery": "Explodes in furious disbelief. Begin an expletive with an extended F sound, but the call cuts off before the word is completed.",
+    "text": "Forfar! For fffffffffff—",
     "pause_after": 1500
   }
 ]

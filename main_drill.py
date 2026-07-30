@@ -78,7 +78,7 @@ Articulate the individual letters naturally and clearly.
 """.strip(),
     },
     "CALLER_05": {
-        "voice": "Charon",
+        "voice": "Puck",
         "style": """
 Use a natural southern English accent.
 Sound relaxed and cooperative.
@@ -86,7 +86,7 @@ Speak telephone digits clearly and distinguish fourteen from forty.
 """.strip(),
     },
     "CALLER_06": {
-        "voice": "Callirrhoe",
+        "voice": "Leda",
         "style": """
 Use a clear Canadian accent.
 Sound patient and matter-of-fact.
@@ -120,11 +120,11 @@ Keep every telephone digit distinct.
 """.strip(),
     },
     "CALLER_10": {
-        "voice": "Despina",
+        "voice": "Fenrir",
         "style": """
-Use a calm, natural southern English accent.
-Sound completely innocent and unaware of the receptionist's mounting distress.
-Keep fourteen, forty and four clearly distinguishable.
+Use a natural Forfar accent from Angus, Scotland.
+Keep it internationally intelligible, but retain an authentic local rhythm and pronunciation.
+Sound calm, polite and entirely unaware that the address is infuriating.
 """.strip(),
     },
 }
@@ -139,6 +139,8 @@ TEST_DIR = PROJECT_DIR / "tests" / TEST_NAME
 TEXT_DIR = TEST_DIR / "text"
 RAW_DIR = TEST_DIR / "audio" / "raw"
 FINAL_DIR = TEST_DIR / "audio" / "final"
+
+EFFECTS_DIR = PROJECT_DIR / "effects"
 
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 FINAL_DIR.mkdir(parents=True, exist_ok=True)
@@ -421,14 +423,91 @@ def generate_audio(prompt, wav_filename, speech_config):
 
 def main():
     dialogue_turns = load_dialogue_turns("dialogue_turns.json")
+
+    phone_ring = AudioSegment.from_file(
+        EFFECTS_DIR / "phone_ring.mp3"
+    ).apply_gain(-5)
+
+    phone_pickup = AudioSegment.from_file(
+        EFFECTS_DIR / "phone_pickup.mp3"
+    ).apply_gain(-3)
+
+    phone_hangup = AudioSegment.from_file(
+        EFFECTS_DIR / "phone_hangup.mp3"
+    ).apply_gain(-3)
+
+    call_start = (
+        phone_ring
+        + AudioSegment.silent(duration=150)
+        + phone_pickup
+        + AudioSegment.silent(duration=250)
+    )
+
+    call_end = (
+        AudioSegment.silent(duration=100)
+        + phone_hangup
+    )
+
     assembled_dialogue = AudioSegment.empty()
 
     print(f"Generating {len(dialogue_turns)} dialogue turns...")
     print()
 
+    # for index, turn in enumerate(dialogue_turns, start=1):
+    #     speaker_name = turn["speaker"]
+    #     speaker = SPEAKERS[speaker_name]
+
+    #     safe_speaker_name = speaker_name.lower()
+    #     wav_filename = f"turn_{index:02d}_{safe_speaker_name}.wav"
+
+    #     turn_path = generate_audio(
+    #         prompt=create_turn_prompt(
+    #             speaker_name=speaker_name,
+    #             spoken_text=turn["text"],
+    #             delivery=turn.get("delivery", ""),
+    #         ),
+    #         wav_filename=wav_filename,
+    #         speech_config=create_speaker_config(speaker["voice"]),
+    #     )
+
+    #     # assembled_dialogue += AudioSegment.from_wav(turn_path)
+    #     turn_audio = AudioSegment.from_wav(turn_path)
+
+    #     if speaker_name.startswith("CALLER_"):
+    #         turn_audio = apply_phone_effect(turn_audio)
+
+    #     assembled_dialogue += turn_audio
+
+    #     # The JSON supplies pause_after only on the final turn of each
+    #     # mini-dialogue. No artificial silence is inserted between speakers.
+    #     pause_duration = turn.get("pause_after", 0)
+
+    #     if pause_duration:
+    #         assembled_dialogue += AudioSegment.silent(
+    #             duration=pause_duration,
+    #             frame_rate=SAMPLE_RATE,
+    #         )
+    
     for index, turn in enumerate(dialogue_turns, start=1):
         speaker_name = turn["speaker"]
         speaker = SPEAKERS[speaker_name]
+        mini_dialogue = turn["mini_dialogue"]
+
+        is_first_turn = (
+            index == 1
+            or dialogue_turns[index - 2]["mini_dialogue"]
+            != mini_dialogue
+        )
+
+        is_last_turn = (
+            index == len(dialogue_turns)
+            or dialogue_turns[index]["mini_dialogue"]
+            != mini_dialogue
+        )
+
+        # Ring and answer at the beginning of every call.
+        if is_first_turn:
+            assembled_dialogue += call_start
 
         safe_speaker_name = speaker_name.lower()
         wav_filename = f"turn_{index:02d}_{safe_speaker_name}.wav"
@@ -443,16 +522,19 @@ def main():
             speech_config=create_speaker_config(speaker["voice"]),
         )
 
-        # assembled_dialogue += AudioSegment.from_wav(turn_path)
         turn_audio = AudioSegment.from_wav(turn_path)
 
+        # Make only the caller sound as though they are on the phone.
         if speaker_name.startswith("CALLER_"):
             turn_audio = apply_phone_effect(turn_audio)
 
         assembled_dialogue += turn_audio
 
-        # The JSON supplies pause_after only on the final turn of each
-        # mini-dialogue. No artificial silence is inserted between speakers.
+        # Hang up after the final turn of every mini-dialogue.
+        if is_last_turn:
+            assembled_dialogue += call_end
+
+        # Add silence only when specified in the JSON.
         pause_duration = turn.get("pause_after", 0)
 
         if pause_duration:
