@@ -1,0 +1,366 @@
+[
+  {
+    "mini_dialogue": 1,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Friendly, calm and professional.",
+    "text": "Could I take your surname, please?"
+  },
+  {
+    "mini_dialogue": 1,
+    "speaker": "CALLER_01",
+    "delivery": "Polite and matter-of-fact.",
+    "text": "It’s Hargreaves."
+  },
+  {
+    "mini_dialogue": 1,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Checking carefully.",
+    "text": "Hargreaves. Is that H, A, R, G, R, A, V, E, S?"
+  },
+  {
+    "mini_dialogue": 1,
+    "speaker": "CALLER_01",
+    "delivery": "Patiently correcting one part.",
+    "text": "Nearly. After the second R, it’s E, A, V, E, S. H, A, R, G, R, E, A, V, E, S."
+  },
+  {
+    "mini_dialogue": 1,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Satisfied.",
+    "text": "Hargreaves. Got it.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 2,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Friendly and efficient.",
+    "text": "And what’s the best number to reach you on?"
+  },
+  {
+    "mini_dialogue": 2,
+    "speaker": "CALLER_02",
+    "delivery": "Starts confidently, then suddenly remembers the number is obsolete.",
+    "text": "It’s oh eight seven, four one six, nine oh three two. Sorry, no—that was my old work phone. Use oh eight seven, six one four, nine three oh two."
+  },
+  {
+    "mini_dialogue": 2,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Carefully distinguishing the two versions.",
+    "text": "So the current one is oh eight seven, six one four, nine three oh two?"
+  },
+  {
+    "mini_dialogue": 2,
+    "speaker": "CALLER_02",
+    "delivery": "Clear confirmation.",
+    "text": "That’s right.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 3,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Warm and professional.",
+    "text": "What’s the house number?"
+  },
+  {
+    "mini_dialogue": 3,
+    "speaker": "CALLER_03",
+    "delivery": "Clear but natural.",
+    "text": "Fourteen, Millbrook Road."
+  },
+  {
+    "mini_dialogue": 3,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Routine read-back.",
+    "text": "Number forty, Millbrook Road."
+  },
+  {
+    "mini_dialogue": 3,
+    "speaker": "CALLER_03",
+    "delivery": "Correcting the house number distinctly.",
+    "text": "No, fourteen: one four. Not four zero."
+  },
+  {
+    "mini_dialogue": 3,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Apologetic.",
+    "text": "Sorry—number fourteen.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 4,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Patient and attentive.",
+    "text": "Could you spell the surname for me?"
+  },
+  {
+    "mini_dialogue": 4,
+    "speaker": "CALLER_04",
+    "delivery": "Speaks clearly.",
+    "text": "Thomson. T, H, O, M, S, O, N."
+  },
+  {
+    "mini_dialogue": 4,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Reading back what was entered.",
+    "text": "T, H, O, M, P, S, O, N."
+  },
+  {
+    "mini_dialogue": 4,
+    "speaker": "CALLER_04",
+    "delivery": "Firm but friendly correction.",
+    "text": "There’s no P. It’s T, H, O, M, S, O, N."
+  },
+  {
+    "mini_dialogue": 4,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Acknowledging the distinction.",
+    "text": "Thomson without a P. Thank you.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 5,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Professional and unhurried.",
+    "text": "May I check your phone number?"
+  },
+  {
+    "mini_dialogue": 5,
+    "speaker": "CALLER_05",
+    "delivery": "Natural pace, with clear digits.",
+    "text": "Yes. Oh one, eight oh six, double seven, one four."
+  },
+  {
+    "mini_dialogue": 5,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Reads it back confidently but incorrectly.",
+    "text": "Oh one, eight oh six, double seven, four zero."
+  },
+  {
+    "mini_dialogue": 5,
+    "speaker": "CALLER_05",
+    "delivery": "Emphasises the final contrast.",
+    "text": "The last two digits are one four—fourteen—not four zero."
+  },
+  {
+    "mini_dialogue": 5,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Careful correction.",
+    "text": "Right. Oh one, eight oh six, double seven, one four.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Still pleasant, slightly more deliberate.",
+    "text": "And your address?"
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "CALLER_06",
+    "delivery": "Matter-of-fact.",
+    "text": "Flat four, number forty, Cedar Avenue."
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Trying to separate the two numbers.",
+    "text": "That’s flat forty at number four?"
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "CALLER_06",
+    "delivery": "Patiently contrasts the details.",
+    "text": "The other way round: flat four, house number forty."
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Concentrating hard.",
+    "text": "Flat four. Number forty. Cedar Avenue."
+  },
+  {
+    "mini_dialogue": 6,
+    "speaker": "CALLER_06",
+    "delivery": "Brief confirmation.",
+    "text": "Exactly.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 7,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Professional, with the first hint of fatigue.",
+    "text": "What contact number should I put on the form?"
+  },
+  {
+    "mini_dialogue": 7,
+    "speaker": "CALLER_07",
+    "delivery": "Begins with a false start and catches the mistake after several digits.",
+    "text": "Oh eight six, six eight one, four zero—no, wait. I’ve started giving you my membership number. My phone is oh eight six, six one eight, one four four zero."
+  },
+  {
+    "mini_dialogue": 7,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Slightly wary, checking the replacement number.",
+    "text": "The phone number—not the membership number—is oh eight six, six one eight, one four four zero?"
+  },
+  {
+    "mini_dialogue": 7,
+    "speaker": "CALLER_07",
+    "delivery": "Reassuring.",
+    "text": "Yes, that’s the one.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Tired but still trying to sound professional.",
+    "text": "Surname?"
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "CALLER_08",
+    "delivery": "Calm and clear.",
+    "text": "Smyth. S, M, Y, T, H."
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Reads it back with restrained confidence.",
+    "text": "Smyth: S, M, I, T, H."
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "CALLER_08",
+    "delivery": "Corrects the vowel, then remembers the booking uses a different surname.",
+    "text": "It’s Y, not I. Although—sorry—the booking is under my previous surname, Smythe, with an E at the end: S, M, Y, T, H, E."
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "RECEPTIONIST",
+    "delivery": "A long-suffering attempt to establish the final answer.",
+    "text": "So I ignore both versions I just entered and use S, M, Y, T, H, E?"
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "CALLER_08",
+    "delivery": "Cheerful confirmation.",
+    "text": "Perfect."
+  },
+  {
+    "mini_dialogue": 8,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Under her breath, with growing frustration.",
+    "text": "Of course it is.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Visibly strained but holding onto professional politeness.",
+    "text": "Please give me the number slowly."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "CALLER_09",
+    "delivery": "Careful and deliberate.",
+    "text": "Oh eight six, four oh four, one four one four."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Overly careful read-back, but still makes a transposition.",
+    "text": "Oh eight six, four four oh, one four one four."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "CALLER_09",
+    "delivery": "Corrects only the middle group.",
+    "text": "The middle is four zero four, not four four zero."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Frustration breaking through.",
+    "text": "Four zero four. Fine. And the end is fourteen fourteen, which is one four, one four?"
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "CALLER_09",
+    "delivery": "Suddenly remembers that the last digits have changed.",
+    "text": "It was, but I changed the number last week. The end is four zero, one four now."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Barely contained exasperation.",
+    "text": "So the final number is oh eight six, four oh four, four zero one four?"
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "CALLER_09",
+    "delivery": "Brightly.",
+    "text": "Correct."
+  },
+  {
+    "mini_dialogue": 9,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Quietly questioning reality.",
+    "text": "Wonderful.",
+    "pause_after": 900
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Determined to survive one final address.",
+    "text": "Last one. House number and street, please."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Entirely innocent and natural.",
+    "text": "Fourteen, Forty Foot Road, flat four."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Stunned, then attempts a read-back.",
+    "text": "Number forty, Fourteen Foot Road, flat forty?"
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Patiently separates all three details.",
+    "text": "No. House number fourteen: one four. The street is Forty Foot Road. And it’s flat four: just four."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Trying desperately to remain calm.",
+    "text": "One four, Forty Foot Road, flat four."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "Remembers one final complication.",
+    "text": "Yes—although deliveries go to number forty next door."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Full comic meltdown, fast and incredulous but still clearly articulated.",
+    "text": "No. Absolutely not. I am writing fourteen, Forty Foot Road, flat four. Your parcels may live at number forty, your neighbour may live at number forty, the entire postal service may move into number forty, but you live at fourteen. One four. Flat four. I have put every four in its own box, and if a single one of them changes again, I am going home."
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "CALLER_10",
+    "delivery": "A small, cautious voice.",
+    "text": "So... would you like my phone number?"
+  },
+  {
+    "mini_dialogue": 10,
+    "speaker": "RECEPTIONIST",
+    "delivery": "Flat, immediate and completely defeated.",
+    "text": "No.",
+    "pause_after": 1500
+  }
+]
