@@ -1,0 +1,19 @@
+ADMINISTRATOR: Right, Marek, would you like me to explain how the course is organised?
+MAREK: Yes, please. I know it’s held in the evening, but how long is each class?
+ADMINISTRATOR: Most of them last two hours, from seven until nine. The first class is slightly shorter—only ninety minutes—because it mainly covers safety and introductions.
+MAREK: That’s fine. I finish work at six, so I should have enough time to get there.
+ADMINISTRATOR: Good. During the practical classes, you’ll learn to use several types of coffee equipment. We demonstrate a filter machine, but most of your practice will be on an espresso machine.
+MAREK: Excellent. That’s what we use in the hotel café, although I haven’t been allowed to operate it yet.
+ADMINISTRATOR: Then this should be useful. You’ll learn how to prepare the machine, make the main coffee drinks and heat milk correctly.
+MAREK: Does the course include latte art as well?
+ADMINISTRATOR: There’s a short demonstration in the fourth class. It isn’t a major part of the course, though. The final class concentrates on basic maintenance, including how to clean the machine and deal with simple problems.
+MAREK: That sounds practical. Do I need to bring any equipment?
+ADMINISTRATOR: No, we provide the coffee, milk, aprons and all the equipment. You should bring a notebook, though, because there’s quite a lot of information to remember. We supply pens if anyone forgets one.
+MAREK: OK, I’ll bring a notebook. And how much does the course cost?
+ADMINISTRATOR: The total fee is €120. We ask for a deposit of €30 when you register, and the remaining €90 must be paid before the first class.
+MAREK: Can I pay the deposit by card now?
+ADMINISTRATOR: Yes. I’ll send a secure payment link to your phone. Once we receive the payment, your place on the course beginning on 14 September will be confirmed.
+MAREK: Great. I’ll pay it as soon as the message arrives.
+ADMINISTRATOR: Perfect. You should receive it within the next few minutes.
+MAREK: Thanks very much for your help.
+ADMINISTRATOR: You’re welcome. We’ll see you in September.

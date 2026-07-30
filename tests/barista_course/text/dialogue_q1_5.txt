@@ -1,0 +1,24 @@
+ADMINISTRATOR: Riverside Training Centre. Rachel speaking. How can I help?
+MAREK: Hello. I’m calling about the evening barista course. I’d like to register, please.
+ADMINISTRATOR: Certainly. I’ll need to take a few details first. What’s your first name?
+MAREK: Marek.
+ADMINISTRATOR: Thank you. And your family name?
+MAREK: Kowalski.
+ADMINISTRATOR: Sorry, could you spell that? Does it begin K-O-V?
+MAREK: No, it’s a W, not a V. It’s K-O-W-A-L-S-K-I.
+ADMINISTRATOR: Got it. Thanks. And what do you do at the moment?
+MAREK: Well, when I first came to Dublin, I worked as a kitchen assistant, but that was only for a few months. I’m a cleaner now, in a hotel near the city centre.
+ADMINISTRATOR: OK, I’ll put down cleaner. Have you had any previous experience of working with food or serving customers?
+MAREK: Yes. Before I started at the hotel, I worked in a bakery for about six months.
+ADMINISTRATOR: Did you make the bread there?
+MAREK: No, I mainly served customers and prepared drinks. There was a café next door, but I wasn’t employed there.
+ADMINISTRATOR: That experience should still be useful. Now, the next course begins on the seventh of September. Would that date suit you?
+MAREK: I’m afraid I’m working every evening that week. Is there another course later in the month?
+ADMINISTRATOR: Let me check. Yes, there’s one beginning on the fourteenth of September, and there are still three places available.
+MAREK: The fourteenth would be perfect.
+ADMINISTRATOR: Good. Finally, could I have a contact number?
+MAREK: Yes, it’s 087 346 2915.
+ADMINISTRATOR: Let me read that back: 087 346 2951.
+MAREK: The first part is right, but the last four digits are 2915—two, nine, one, five.
+ADMINISTRATOR: Got it: 087 346 2915.
+MAREK: That’s right.

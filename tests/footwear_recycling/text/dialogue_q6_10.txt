@@ -1,0 +1,14 @@
+NINA: We still need one problem for each proposed use. Shall we start with rubber flooring?
+ALEX: I assumed the market would be small, but it’s used in gyms, playgrounds and public buildings. Transport to one plant has an environmental cost, but the article stresses the preparation: fabric, foam and metal must be removed before the rubber can be processed.
+NINA: So separation is the main obstacle. For insulation panels, I wondered about the varying density of the foam.
+ALEX: The manufacturer can blend different batches, so variation is manageable. The problem is supply. Some months there is plenty of foam; in others, there isn’t enough to keep production going.
+NINA: New soles sound easier because the components have already been separated.
+ALEX: But the recovered rubber isn’t uniform. One batch may be soft and flexible, while another contains harder material, so the manufacturer can’t guarantee the same strength and grip every time.
+NINA: What about recycling the new shoes again?
+ALEX: The researcher says that’s a weakness of shoe design generally. The immediate problem here is achieving consistent performance.
+NINA: Bags and belts require little machinery, so energy use isn’t the issue. They can also sell for high prices.
+ALEX: Yes, but only a few specialist shops stock them. Even successful designers could use only a tiny fraction of the rejected footwear.
+NINA: Finally, construction blocks. There should be enough raw material, and small production units could reduce transport.
+ALEX: The difficulty is manufacturing them. The mixture has to be heated and kept under pressure for a long time, so the energy requirement is much higher than it first appears.
+NINA: Can the blocks be recycled afterwards?
+ALEX: Apparently damaged blocks can be reheated and remoulded. We’ll identify energy use as the main concern, then. That gives us five distinct limitations for the final slide.
