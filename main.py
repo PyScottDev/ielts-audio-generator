@@ -20,12 +20,12 @@ MAX_RETRY_DELAY = 120
 # SETTINGS TO CHANGE FOR EACH TEST
 # ============================================================
 
-TEST_NAME = "barista_course"
+TEST_NAME = "2_cycle_club_demo"
 MODEL = "gemini-3.1-flash-tts-preview"
 
 # Speaker names must match the labels used in the transcript files.
-SPEAKER_1 = "ADMINISTRATOR"
-SPEAKER_2 = "MAREK"
+SPEAKER_1 = "KIM"
+SPEAKER_2 = "DANIEL"
 
 # These select the underlying Gemini voices.
 SPEAKER_1_VOICE = "Kore"
@@ -47,23 +47,29 @@ Create the slower pace through controlled rhythm, clear phrasing and brief pause
 """.strip()
 
 # Change these independently for each test.
+SPEAKER_1_VOICE = "Kore"
+
 SPEAKER_1_STYLE = f"""
-Use a clear, internationally understandable Melbourne Australian English accent.
-Sound friendly, helpful, patient and professional, as if assisting someone who is registering for a course by phone.
-Keep the accent mild and natural, without broad slang or exaggerated Australian pronunciation.
-Use natural conversational pacing and speak dates, numbers and spelled letters clearly.
+Use a clear, natural and internationally understandable Melbourne Australian accent.
+
+Sound like a female cycling coach in her thirties or forties speaking to beginners in a club podcast.
+Be friendly, practical and encouraging, with the manner of someone who regularly gives advice to new cyclists.
+
+Keep the delivery conversational and relaxed rather than formal or presentational.
+Use clear emphasis when correcting common misconceptions, giving recommendations or explaining what matters most.
+
+Keep the Australian accent mild and natural.
+Do not use broad Australian slang or exaggerated pronunciation.
+
+Maintain very clear articulation and a calm, confident delivery.
 
 {PACING_STYLE}
 """.strip()
 
-SPEAKER_2_STYLE = f"""
-Use a light, natural and intelligible Polish accent.
-Sound polite, practical and conversational.
-Speak fluent English with a consistent Polish influence, but do not exaggerate the accent or make it difficult to understand.
-Sound slightly careful when giving personal details and corrections.
-Speak the surname, phone number and individual digits clearly.
-
-{PACING_STYLE}
+SPEAKER_2_STYLE = """
+Use a clear, contemporary British English accent.
+Sound cooperative, relaxed and conversational.
+Speak naturally, with clear articulation but without sounding careful or instructional.
 """.strip()
 
 

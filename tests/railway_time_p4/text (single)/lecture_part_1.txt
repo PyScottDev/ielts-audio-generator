@@ -1,0 +1,11 @@
+Today, I’m going to look at a change that now seems entirely ordinary: the decision that clocks in different places should show the same time. Railways played a central role in this, but first we need to understand the system they replaced.
+
+Before railway travel, there was no single time used throughout Britain. Each town worked out its local time from the sun, usually treating the moment when it reached its highest point as noon. Because that moment occurs slightly later as you move west, a clock in Bristol could be several minutes behind one in London.
+
+For most people, these differences created little difficulty. A long trip was made on foot or by horse-drawn coach, and passengers covered comparatively short distances each day. A journey between distant towns could continue into the following day, requiring an overnight stay, so a difference of five or ten minutes was insignificant. Travellers who owned watches could simply adjust them when they arrived.
+
+The expansion of the railways altered the situation. Trains made journeys much faster, while a growing network meant that accurate timetables were essential. If a station clock followed local time while the railway used another city’s time, a passenger could arrive at what appeared to be the correct moment and still miss the train.
+
+There was also a safety issue. Early lines often had trains travelling in both directions on a single track, with passing places at particular points. If neighbouring stations were working to different times, two trains might enter the same section, resulting in collisions rather than simply delays for passengers.
+
+At first, individual companies imposed one time across their own routes, and the Great Western Railway was an early example. Its timetable of 1841 warned passengers that every station kept London time, and listed how many minutes this differed from clocks farther west. This reduced confusion within that railway, but didn’t provide one system for the whole country.

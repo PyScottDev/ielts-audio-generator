@@ -1,0 +1,9 @@
+LECTURER: Railway managers gradually recognised that the observatory’s time could serve a new purpose on land. In 1847, the Railway Clearing House, which helped companies coordinate their operations, recommended that all stations adopt Greenwich time.
+
+Adopting it in principle was easier than distributing it accurately. A stationmaster could set a clock in London, but even a reliable clock would gradually gain or lose seconds. The electric telegraph provided the solution and was already carrying written messages over long distances. From 1852, however, Greenwich began sending time signals through telegraph wires. Because distant stations received the same electrical information, their clocks could be synchronised, so they all showed the same time.
+
+The railways had now created a common system, but public acceptance was more gradual. A station clock might show Greenwich time while a nearby town clock continued to show local time. Some clockmakers responded with timepieces that had two minute hands: one indicated local time and the other railway time.
+
+Reactions were mixed. Many people welcomed easier planning, more reliable connections and greater agreement between public clocks. But some communities believed that railway companies were interfering in something that had always been decided locally. They protested against what was called “railway-time aggression”: human activity was being forced to follow the clock rather than the sun.
+
+Nevertheless, Greenwich time continued to spread through stations, post offices, churches and town halls, so daily practice changed before Parliament acted. It was only in 1880 that legislation made Greenwich Mean Time Britain’s legal time. By then, railways had done more than accelerate travel: they had changed how an entire society organised the day.
